@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ProjectAI - Login</title>
+
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+
+<body>
+
+    <div class="auth-container">
+
+        <!-- LEFT SIDE -->
+        <div class="auth-info">
+
+            <div class="brand">
+
+                <h1>ProjectAI</h1>
+
+                <p>
+                    Intelligent Project Management
+                </p>
+
+            </div>
+
+
+            <div class="info-content">
+
+                <h2>
+                    Manage your projects
+                    smarter.
+                </h2>
+
+                <p>
+                    Monitor progress, analyze reports,
+                    detect delays and get AI-powered
+                    project insights.
+                </p>
+
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        AI-powered document analysis
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        Real-time project monitoring
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <span>✓</span>
+
+                    <p>
+                        Smart delay detection
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="auth-form-container">
+
+            <div class="auth-card">
+
+                <h2>Welcome back</h2>
+
+                <p class="subtitle">
+                    Login to your ProjectAI account
+                </p>
+
+
+                <!-- LOGIN FORM -->
+
+                <form id="loginForm">
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="form-group">
+
+                        <div class="label-row">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <a href="forgot-password.html">
+                                Forgot password?
+                            </a>
+
+                        </div>
+
+
+                        <div class="password-box">
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Enter your password"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                id="togglePassword"
+                                class="password-toggle"
+                            >
+                                Show
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- REMEMBER -->
+
+                    <div class="remember">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                id="rememberMe"
+                            >
+
+                            Remember me
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- LOGIN BUTTON -->
+
+                    <button
+                        type="submit"
+                        class="auth-btn"
+                    >
+                        Login
+                    </button>
+
+
+                    <!-- ERROR/SUCCESS -->
+
+                    <p
+                        id="loginMessage"
+                        class="message"
+                    ></p>
+
+
+                </form>
+
+
+                <!-- REGISTER -->
+
+                <div class="auth-footer">
+
+                    <p>
+                        Don't have an account?
+                        <a href="register.html">
+                            Create account
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

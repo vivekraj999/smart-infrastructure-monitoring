@@ -5,3 +5,4 @@ import 'js/progress.js';
 import 'js/risks.js';
 import 'js/schedule.js';
 import 'js/upload.js';
+import 'js/auth.js';
