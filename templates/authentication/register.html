@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ProjectAI - Register</title>
+
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+
+<body>
+
+    <div class="auth-container">
+
+        <!-- LEFT -->
+
+        <div class="auth-info">
+
+            <div class="brand">
+
+                <h1>ProjectAI</h1>
+
+                <p>
+                    Intelligent Project Management
+                </p>
+
+            </div>
+
+
+            <div class="info-content">
+
+                <h2>
+                    Start managing projects
+                    intelligently.
+                </h2>
+
+                <p>
+                    Create your account and
+                    start monitoring your
+                    infrastructure projects.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+
+        <div class="auth-form-container">
+
+            <div class="auth-card">
+
+                <h2>Create account</h2>
+
+                <p class="subtitle">
+                    Register for ProjectAI
+                </p>
+
+
+                <form id="registerForm">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="registerEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="registerEmail"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="form-group">
+
+                        <label for="registerPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="registerPassword"
+                            placeholder="Create a password"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- CONFIRM PASSWORD -->
+
+                    <div class="form-group">
+
+                        <label for="confirmPassword">
+                            Confirm Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Confirm your password"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- TERMS -->
+
+                    <div class="remember">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                id="terms"
+                                required
+                            >
+
+                            I agree to the terms
+                            and conditions
+
+                        </label>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="auth-btn"
+                    >
+                        Create Account
+                    </button>
+
+
+                    <p
+                        id="registerMessage"
+                        class="message"
+                    ></p>
+
+
+                </form>
+
+
+                <div class="auth-footer">
+
+                    <p>
+
+                        Already have an account?
+
+                        <a href="login.html">
+                            Login
+                        </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
