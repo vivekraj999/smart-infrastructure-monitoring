@@ -7,14 +7,13 @@ app.config.from_object('config.Config')
 def home():
     return render_template('index.html')
 
-
 @app.route('/dashboard')
 def dashboard():
     return render_template('pages/dashboard.html')
 
 @app.route('/documents')
 def documents():
-    return render_template('pages/documents.html')
+    return render_template('pages/document.html')
 
 @app.route('/schedule')
 def schedule():
@@ -26,7 +25,7 @@ def progress():
 
 @app.route('/risks')
 def risks():
-    return render_template('pages/risks.html')
+    return render_template('pages/risk&delays.html')
 
 @app.route('/assistant')
 def assistant():
