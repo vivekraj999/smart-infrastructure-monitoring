@@ -7,17 +7,30 @@ app.config.from_object('config.Config')
 def home():
     return render_template('index.html')
 
-@app.route('/feedback', methods=['GET', 'POST'])
-def feedback():
-    if request.method == 'POST':
-        name = request.form.get("username")
-        message = request.form.get("textarea")
-        return render_template('pages/thankyou.html', user=name, message=message)
-    return render_template('pages/feedback.html')
 
-@app.route('/thankyou')
-def thankyou():
-    return render_template('pages/thankyou.html')
+@app.route('/dashboard')
+def dashboard():
+    return render_template('pages/dashboard.html')
+
+@app.route('/documents')
+def documents():
+    return render_template('pages/documents.html')
+
+@app.route('/schedule')
+def schedule():
+    return render_template('pages/schedule.html')
+
+@app.route('/progress')
+def progress():
+    return render_template('pages/progress.html')
+
+@app.route('/risks')
+def risks():
+    return render_template('pages/risks.html')
+
+@app.route('/assistant')
+def assistant():
+    return render_template('pages/ai-assistant.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
